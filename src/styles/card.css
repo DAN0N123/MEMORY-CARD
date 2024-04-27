@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'ROBOTO';
+    src: url('../public/Roboto-Black.ttf');
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    height: 350px;
+    background-color: #000000;
+    color: white;
+    padding-top: 16px;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'ROBOTO';
+}
+
+.card img{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 90%;
+    height: 250px;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
